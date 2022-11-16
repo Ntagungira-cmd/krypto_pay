@@ -4,7 +4,7 @@ require("@nomicfoundation/hardhat-toolbox");
 
 // Go to https://www.alchemyapi.io, sign up, create
 // a new App in its dashboard, and replace "KEY" with its key
-const ALCHEMY_API_KEY = "https://eth-goerli.g.alchemy.com/v2/B-3yptzYVsEw0y9SinxPdjjvckL4pxhG";
+const ALCHEMY_API_KEY = "B-3yptzYVsEw0y9SinxPdjjvckL4pxhG";
 
 // Replace this private key with your Goerli account private key
 // To export your private key from Metamask, open Metamask and
@@ -21,3 +21,5 @@ module.exports = {
     },
   },
 };
+
+// Deployed To Goerli: 0xe03C3dD39Cf6E9b7A351047dE6dE9b2027988ab1

@@ -57,8 +57,8 @@ export const TransactionProvider = ({ children }) => {
         checkIfWalletIsConnected();
     }, []);
 
-    return (<TransactionContext.Provider value={{connectWallet}}>
+    return (<TransactionContext.Provider value={{ connectWallet }}>
         {children}
-    </TransactionContext.Provider>
+        </TransactionContext.Provider>
     );
 }
